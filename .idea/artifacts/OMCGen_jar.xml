@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="OMCGen:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OMCGen_jar</output-path>
+    <root id="archive" name="OMCGen.jar">
+      <element id="module-output" name="OMCGen" />
+    </root>
+  </artifact>
+</component>
