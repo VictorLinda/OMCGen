@@ -1,4 +1,4 @@
-package sample;
+package lee;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("omcgen.fxml"));
         primaryStage.setTitle("OMCGen v1.0");
         primaryStage.setScene(new Scene(root, 1000, 700));
         primaryStage.show();
